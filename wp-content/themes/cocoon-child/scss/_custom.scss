@@ -1,3 +1,12 @@
+.test {
+    color: red;
+
+    @include breakpoint(mobile) {
+        color: #000;
+        background-color: red;
+    }
+}
+
 .test22 {
     @include breakpoint(mobile) {
         height: auto;
