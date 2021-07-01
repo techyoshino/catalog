@@ -339,3 +339,14 @@ function remove_no_archive_pages_from_widget_recent_entries($args){
   return $args;
 }
 endif;
+
+
+
+function add_slider_files() {
+  //スタイルシートの読み込み
+  wp_enqueue_style( 'swiper-style', 'https://unpkg.com/swiper/swiper-bundle.min.css');
+
+  //JavaScript の読み込み
+  wp_enqueue_script( 'swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', '', '', true);
+}
+add_action('wp_enqueue_scripts', 'add_slider_files');

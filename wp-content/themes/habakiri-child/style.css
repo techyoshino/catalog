@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*
+ Theme Name:   habakiri-child
+ Template:     habakiri
+*/
+
+@import url(./src/js/jquery.responsive-nav/jquery.responsive-nav.css);
+@import url(./src/js/slick/slick.css);
+@import url("scss/style.css");
