@@ -8,7 +8,12 @@
 if ( !defined( 'ABSPATH' ) ) exit; ?>
           </main>
 
-        <?php get_sidebar(); ?>
+       
+       <?php
+       /*
+          <?php get_sidebar(); ?>
+          */
+       ?>   
 
       </div>
 
@@ -106,6 +111,9 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
   <?php //barba.js処理
   get_template_part('tmp/footer-barba-js');?>
+
+
+
 
 </body>
 
