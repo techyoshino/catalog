@@ -424,6 +424,7 @@ textarea::placeholder {
   padding: 6px 0;
 }
 
+
 /* responsive */
 @media (max-width: 990px) {
   .on {
