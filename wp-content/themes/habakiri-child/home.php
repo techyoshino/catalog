@@ -48,9 +48,9 @@
 	<div class="container">
 
 		<ul>
-			<li class="col-xs-4"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/choice-one.png"></a></li>
-			<li class="col-xs-4"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/choice-one.png"></a></li>
-			<li class="col-xs-4"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/choice-one.png"></a></li>
+			<li class="col-xs-4 big-title-one"><img src="<?php echo get_template_directory_uri(); ?>/images/kikai-on.png"></li>
+			<li class="col-xs-4 big-title-two"><img src="<?php echo get_template_directory_uri(); ?>/images/shuhen-on.png"></li>
+			<li class="col-xs-4 big-title-three"><img src="<?php echo get_template_directory_uri(); ?>/images/maker-on.png"></li>
 		</ul>
 
 	</div><!-- //container -->	
@@ -72,22 +72,39 @@
 
 							<h3>①大分類を選んでください</h3>
 
-							<ul>
-								<li id="machine-list-one" class='secList'>工作機械</li>
-								<li id="machine-list-two" class='secList'>プレス機</li>
-								<li id="machine-list-three" class='secList'>板金機械</li>
-								<li id="machine-list-four" class='secList'>測定器</li>
-								<li id="machine-list-five" class='secList'>ロボット</li>
-								<li id="machine-list-six" class='secList'>コンプレッサー</li>
-								<li id="machine-list-seven" class='secList'>溶接機</li>
-								<li id="machine-list-eight" class='secList'>その他機械</li>
-								<li id="machine-list-nine" class='secList'>ソフトウェア</li>
-								<li id="machine-list-ten" class='secList'>ツーリング</li>
-								<li id="machine-list-eleven" class='secList'>治工具類</li>
-								<li id="machine-list-twelve" class='secList'>測定器具</li>
-								<li id="machine-list-thirteen" class='secList'>テーブル</li>
-								
-							</ul>
+							<div class="machine-area">
+
+								<ul>
+									<li id="machine-list-one" class='secList'>工作機械</li>
+									<li id="machine-list-two" class='secList'>プレス機</li>
+									<li id="machine-list-three" class='secList'>板金機械</li>
+									<li id="machine-list-four" class='secList'>測定器</li>
+									<li id="machine-list-five" class='secList'>ロボット</li>
+									<li id="machine-list-six" class='secList'>コンプレッサー</li>
+									<li id="machine-list-seven" class='secList'>溶接機</li>
+									<li id="machine-list-eight" class='secList'>その他機械</li>
+									
+									
+								</ul>
+							
+							</div><!-- //machine-area -->
+
+
+							<div class="shuhen-area">
+
+
+								<ul>
+									
+									<li id="machine-list-ten" class='secList'>ツーリング</li>
+									<li id="machine-list-eleven" class='secList'>治工具類</li>
+									<li id="machine-list-twelve" class='secList'>測定器具</li>
+									<li id="machine-list-thirteen" class='secList'>テーブル</li>
+									
+								</ul>
+
+							</div><!-- //shuhen-area -->
+
+
 						</div>
 					</div>	
 					<div class="search-machine-r col-xs-6">
@@ -256,7 +273,6 @@
 								G07-F
 							</td>
 							
-						
 							<td class="">
 								<div>寸法:550×900×790mm BT50用 20本、40用 24本 計44本収納 取っ手&amp;キャスター付 内容と現品に相違がある場合は、現品を優先させて…</div>
 							</td>

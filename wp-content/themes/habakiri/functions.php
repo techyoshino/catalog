@@ -685,8 +685,9 @@ function add_js_files() {
   wp_enqueue_style( 'swiper-style', 'https://unpkg.com/swiper/swiper-bundle.min.css');
 
   //JavaScript の読み込み
- wp_enqueue_script( 'ajax', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js', '', '', true);
+
  wp_enqueue_script( 'swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', '', '', true);
+ //wp_enqueue_script( 'ajax', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js', '', '', true);
  wp_enqueue_script( 'Yy-js', '/wp-content/themes/habakiri/js/Yy.js', '', '', true);
   
 }

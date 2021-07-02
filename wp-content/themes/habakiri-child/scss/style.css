@@ -655,6 +655,16 @@ textarea::placeholder {
   list-style: none;
   margin: 0 auto;
   padding: 0;
+  width: 80%;
+}
+
+.search_btn ul li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* search_main
@@ -911,6 +921,10 @@ textarea::placeholder {
 .search_main .search_list .search_list_table table td.button a {
   color: #B1CB40;
   font-size: 2rem;
+}
+
+.shuhen-area {
+  display: none;
 }
 
 .notfound-inner-wrapper .notfound-title {
